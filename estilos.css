@@ -1,0 +1,111 @@
+body{
+    background-image: url("canarias.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+img{
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boton{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    text-decoration:none;
+    text-align:center;
+    margin: 0 auto;
+}
+.boton:hover{
+    background-color: #555555;
+    
+}
+.filtro{
+    text-align: center;
+    font-weight: bold;
+}
+.toolbar{
+    text-align: center;
+}
+.logotipo{
+    display: block;
+    margin-right:auto;
+    width: 200px; 
+}
+.principal{
+    margin-left:auto; 
+    margin-right:auto;
+    width:65%;
+    font-family:"Times New Roman", Times, serif;
+    border-collapse: collapse;
+}
+td.principal{border-bottom: 1px solid black;}
+th.principal{border-bottom: 1px solid black;}
+th{text-align: left;}
+tr{border-bottom: 1px solid black;}
+
+#busqueda{
+    background-color: #333;
+    float:right;
+   
+}
+
+#busqueda div { 
+    padding:5px;
+    display:inline-block;
+ 
+}
+#busquedaint input[type=submit]{
+    padding:4px 0;
+    margin:0;
+}
+#busquedaint option{
+    padding:4px 0;
+    margin:0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float:left;
+}
+
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#logear{
+    border : 2px solid black;
+    border-radius:2px;
+    padding:10px;
+    margin:10px 150px;
+    display:inline-block;
+}
+#logear input{
+    display:inline-block;
+    padding:5px;
+    width:85%;
+    margin:10px;
+}
+#logear input[type=submit] {
+    width:90%;
+    border: none;
+    border-radius: 4px;
+}
